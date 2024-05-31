@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">StyloSense</string>
+
+    <string name="welcome_to_stylogenesis">Welcome to StyloSense!</string>
+    <string name="splash_one">The all in one app for your clothes and laundry lorem  i believe i can fly </string>
+    <string name="splash_two">The all in one app for your clothes and laundry lorem  i believe i can fly </string>
+    <string name="splash_three">The all in one app for your clothes and laundry lorem  i believe i can fly </string>
+    <string name="next">Next</string>
+    <string name="lets_get_started">Let’s Get Started</string>
+    <string name="lets_go">Let’s Go!</string>
+
 </resources>

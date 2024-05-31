@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -66,4 +68,24 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    //
+    implementation ("androidx.compose.ui:ui:1.6.7")
+    implementation ("androidx.compose.material:material:1.6.7")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    //coil
+    implementation("io.coil-kt:coil-compose:2.2.2")
+    //hilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
+    kapt("com.google.dagger:hilt-compiler:2.48")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    //okhttp3
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //pager
+    implementation("com.google.accompanist:accompanist-pager:0.28.0")
+    //constrain layout
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 }
